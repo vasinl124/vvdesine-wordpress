@@ -6,6 +6,7 @@
     wp_enqueue_style('style', get_stylesheet_uri());
     wp_enqueue_style( 'main', get_template_directory_uri() . '/css/main.css',false,'1.1','all');
     wp_enqueue_style( 'page', get_template_directory_uri() . '/css/page.css',false,'1.1','all');
+    wp_enqueue_style( 'single', get_template_directory_uri() . '/css/single.css',false,'1.1','all');
     wp_enqueue_style( 'header', get_template_directory_uri() . '/css/header.css',false,'1.1','all');
     wp_enqueue_style( 'footer', get_template_directory_uri() . '/css/footer.css',false,'1.1','all');
     wp_enqueue_style( 'category', get_template_directory_uri() . '/css/category.css',false,'1.1','all');

@@ -5,9 +5,11 @@
     while (have_posts()) : the_post(); ?>
 
   <div class="col col-sm-10">
-    <article class="post">
-      <h2><?php the_title(); ?></h2>
-      <?php the_content(); ?>
+    <article class="page">
+      <h1 class="page-title"><?php the_title(); ?></h1>
+      <div class="page-content">
+        <?php the_content(); ?>
+      </div>
     </article>
   </div>
 

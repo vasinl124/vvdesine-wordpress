@@ -5,7 +5,9 @@ Version: 1.0
 
 */
 
+@import url(https://fonts.googleapis.com/css?family=Muli);
 body {
+  font-family: 'Muli', sans-serif;
   /*font-family: Arialm sans-serif;
   font-size: 14px;
   color: #333;*/

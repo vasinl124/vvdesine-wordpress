@@ -6,8 +6,10 @@ if (have_posts()) :
   while (have_posts()) : the_post(); ?>
 <div class="col col-sm-10">
   <article class="post">
-    <h2><?php the_title(); ?></h2>
-    <?php the_content(); ?>
+    <h1 class="post-title "><?php the_title(); ?></h1>
+    <div class="post-content">
+      <?php the_content(); ?>
+    </div>
   </article>
 </div>
 

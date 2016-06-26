@@ -1,9 +1,9 @@
-.page .page-title {
+.post .post-title {
   /*text-transform: uppercase;*/
   text-decoration: underline;
   font-size: 25px;
 }
 
-.page .page-content {
+.post .post-content {
   margin-top: 25px;
 }

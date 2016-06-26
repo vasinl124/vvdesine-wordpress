@@ -1,3 +1,10 @@
+.category-parent-container {
+  padding: 0px !important;
+}
+.categories-container {
+  margin: 0px 0px 20px;
+  background-color: lightgray;
+}
 .cfi-featured-image {
   display: block;
 }
@@ -14,14 +21,23 @@
 }
 
 .category-container.selected {
-  background-color: rgba(0, 0, 0, 0.2);;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .category-container:hover {
-  background-color: rgba(0, 0, 0, 0.4);;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
+.category-container .category-icon {
+  display: block;
+  margin: 0 auto;
+}
 
-.category-name {
+.category-container .category-name {
   text-align: center;
+  color: black;
+}
+
+.category-loop-container .post a {
+  color: black;
 }
