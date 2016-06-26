@@ -1,0 +1,70 @@
+.header-container {
+  padding: 0 !important;
+}
+.header-container .sidebar-nav .navbar {
+  margin-bottom: 0;
+}
+
+.sidebar-nav .navbar {
+  background-color: transparent;
+  border: 0px;
+}
+
+.navbar-header img {
+  width: 50%;
+}
+
+.small-navbar-brand img {
+  width: 40px;
+
+}
+.small-navbar-brand {
+  padding: 5px 0px 0px 10px;
+}
+.small-navbar-brand .easylogo {
+  margin: 0px;
+}
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .header-container {
+    padding: 10px !important;
+  }
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li, .sidebar-nav .navbar .navbar-header {
+    float: none;
+    display: block;
+  }
+
+  .sidebar-nav .navbar li a {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .sidebar-nav .navbar li a:hover {
+    border-right: 4px solid lightgray;
+  }
+
+  .sidebar-nav .navbar .active a {
+    border-right: 4px solid gray;
+  }
+
+  .sidebar-nav .navbar-header .easylogo {
+    text-align: left !important;
+
+  }
+
+  .sidebar-nav .navbar-header .easylogo img {
+    position: relative;
+    left: 15px;
+  }
+}

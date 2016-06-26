@@ -1,0 +1,10 @@
+.site-footer-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: black;
+  /*border-top: 2px solid #999;*/
+}
+
+.copyright {
+  color: white;
+}

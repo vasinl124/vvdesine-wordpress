@@ -1,0 +1,27 @@
+.cfi-featured-image {
+  display: block;
+}
+
+.cfi-featured-image img {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+}
+
+.category-container {
+  padding: 20px;
+  display: inline-block;
+}
+
+.category-container.selected {
+  background-color: rgba(0, 0, 0, 0.2);;
+}
+
+.category-container:hover {
+  background-color: rgba(0, 0, 0, 0.4);;
+}
+
+
+.category-name {
+  text-align: center;
+}

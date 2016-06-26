@@ -1,0 +1,27 @@
+/*
+Theme Name : VVDesine
+Author: Max Vasin Limsukhawat
+Version: 1.0
+
+*/
+
+body {
+  /*font-family: Arialm sans-serif;
+  font-size: 14px;
+  color: #333;*/
+  /*background-color: red;*/
+}
+
+a:link,
+a:visited {
+  /*color: green;*/
+}
+
+
+p {
+  /*line-height: 1.65em;*/
+}
+
+article.post:last-of-type {
+  /*border-bottom: none;*/
+}
